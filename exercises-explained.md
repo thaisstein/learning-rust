@@ -2,7 +2,7 @@
 
 ## 01 - Hello World
 
-This is a simple "hello world" in rust and my first step (going down the rabbit hole \o/) but there's an interesting catch.
+This is a simple "hello world" in Rust (and my first step going down the rabbit hole \o/) but there's an interesting catch.
 
 `println!` might look like the C funtion `printlf` or the (~~ugly~~) `console.log` function, but it's actually not a function - it's a *macro*. 
 
@@ -15,7 +15,7 @@ What this means is instead of being a pre-compiled "piece" of the code that we c
 
 ## 02 - Primitives
 
-There's different types of **primitives** in rust, which are the building blocks of the language. We call them primitives because, unlike variables, we are in control of how our data should be handled by the CPU choosing how many bits we need for each task. 
+There's different types of **primitives** in Rust, which are the building blocks of the language. We call them primitives because, unlike variables, we are in control of how our data should be handled by the CPU choosing how many bits we need for each task. 
 
 In the code, they are declared with `let` before their name and they live in a block (the space between opening and closing cursly braces), i.e., they do not exist outside that block.
 
@@ -23,7 +23,7 @@ In the code, they are declared with `let` before their name and they live in a b
 
 - **Integers** (signed, unsigned). Ex: `i8` is a signed integer where 8 is the # of bits; `usize` is an unsigned integer where "size" on a 64 bit machine would be 64. We can pre-define their size but if we don't, the default size is 32.
 - **Floating points**: `f32` (carries 32 bits) and `f64` (carries 64 bits, more accurate than the former). Their default size is 64.
-- **Char**: unicode character (I found it interesting that unlike C, chars in rust have 4 bytes each which can be useful for writing accented letters, etc.)
+- **Char**: unicode character (I found it interesting that unlike C, chars in Rust have 4 bytes each which can be useful for writing accented letters, etc.)
 - Bool (true or false)
 - Unit type (represents an empty value, returns a `()`)
 
@@ -37,7 +37,7 @@ Fun fact: Coming from C, the biggest shock is the lack of C-style loops. Turns o
 
 ### On Type Annotation
 
-We can tell rust the exact type we want to give a primitive (type annotation) in 2 different ways:
+We can tell Rust the exact type we want to give a primitive (type annotation) in 2 different ways:
 - Regular (before the variable's value): `let a_float: f64 = 1.0;`
 - Suffix (after variable designation): `let an_integer = 5i32;`
 We can also *not* tell Rust the type we want. It can be inferred from context like. In `primitive.rs`, `inferred_type` will be i64, even though I didn't specify it when declarying the primitive.
