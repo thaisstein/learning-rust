@@ -32,5 +32,4 @@ fn main() {
     println!("Third: {}", my_tuple.2);
     println!("Fourth: {}", my_tuple.3);
 
-
 }

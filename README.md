@@ -50,4 +50,10 @@ What we *can't* do, even when using `mut`, is change the primitive's *type*, unl
 
 ## 03 - Custom types
 
+Like C, we have custom datatypes:
+- `struct`
+- `enum`
+While struct is an "and", enum is an "or"
+
+`const` and `static` allows you to create values that exist for the entire duration of the program. `const` is a value fixed at compile-time (compiler copies and past its value where it's used) while `static` is a single instance of data on a specific spot in memory (when using it, program points to the exact memory address).
 
