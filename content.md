@@ -34,7 +34,6 @@ In the code, they are declared with `let` before their name and they live in a b
 
 Fun fact: Coming from C, the biggest shock is the lack of C-style loops. Turns out I can't print array elements with for (int i = 0; i<,10; i++). I looked up on why and it's because it's a common "off-by-one" errors/buffer overflows. So true. Way to go Rust.
 
-
 ### On Type Annotation
 
 We can tell Rust the exact type we want to give a primitive (type annotation) in 2 different ways:
