@@ -28,7 +28,7 @@ There's different types of **primitives** in Rust, which are the building blocks
 
 In the code, they are declared with `let` before their name and they live in a block (the space between opening and closing cursly braces), i.e., they do not exist outside that block.
 
-- **Scalar Types:**
+#### **Scalar Types:**
 
 - **Integers** (signed, unsigned). Ex: `i8` is a signed integer where 8 is the # of bits; `usize` is an unsigned integer where "size" on a 64 bit machine would be 64. We can pre-define their size but if we don't, the default size is 32.
 - **Floating points**: `f32` (carries 32 bits) and `f64` (carries 64 bits, more accurate than the former). Their default size is 64.
@@ -36,21 +36,21 @@ In the code, they are declared with `let` before their name and they live in a b
 - Bool (true or false)
 - Unit type (represents an empty value, returns a `()`)
 
-- **Compound Types:**
+#### **Compound Types:**
 
 - Arrays (Like we know and adore. Holds elements from the same type and has fixed lenght).
 - Tuples (('this', 'is', 'a', 'tuple', true)). Fixed lenght, can hold different types. 
 
 Fun fact: Coming from C, the biggest shock is the lack of C-style loops. Turns out I can't print array elements with for (int i = 0; i<,10; i++). I looked up on why and it's because it's a common "off-by-one" errors/buffer overflows. So true. Way to go Rust.
 
-- **On Type Annotation**
+#### **On Type Annotation**
 
 We can tell Rust the exact type we want to give a primitive (type annotation) in 2 different ways:
 - Regular (before the variable's value): `let a_float: f64 = 1.0;`
 - Suffix (after variable designation): `let an_integer = 5i32;`
 We can also *not* tell Rust the type we want. It can be inferred from context like. In `primitive.rs`, `inferred_type` will be i64, even though I didn't specify it when declarying the primitive.
 
-- **On Mutability:**
+#### **On Mutability:**
 
 Note that I declared `inferred_type` with `let mut` before it. This happens because by default, Rust variables are **immutable**, i.e. we can't change them. With `mut` we are specifying we want to change this value somewhere along the code. 
 
