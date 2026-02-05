@@ -5,3 +5,4 @@ This repository documents my progress through the Rust programming language. It'
 ## Content
 - `exercises.md`: Walkthrough and explanations on the coding exercises solutions.
 - `content.md`: General notes on what I understand from each topic.
+- `exercises`: A folder for all my topic-based practice work.
