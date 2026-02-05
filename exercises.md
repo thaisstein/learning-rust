@@ -63,7 +63,7 @@ What we *can't* do, even when using `mut`, is change the primitive's *type*, unl
 ### 2.2. Tuples 
 
 
-## 03. Custom types
+## 3. Custom types
 
 Like C, we have custom datatypes:
 - `struct`
