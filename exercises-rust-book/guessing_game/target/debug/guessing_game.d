@@ -1,0 +1,1 @@
+/home/tsteinmuller@atech.local.br/Documentos/learning-rust/exercises-rust-book/guessing_game/target/debug/guessing_game: /home/tsteinmuller@atech.local.br/Documentos/learning-rust/exercises-rust-book/guessing_game/src/main.rs
