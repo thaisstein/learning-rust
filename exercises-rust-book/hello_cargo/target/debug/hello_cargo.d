@@ -1,0 +1,1 @@
+/home/tsteinmuller@atech.local.br/Documentos/learning-rust/exercises-rust-book/hello_cargo/target/debug/hello_cargo: /home/tsteinmuller@atech.local.br/Documentos/learning-rust/exercises-rust-book/hello_cargo/src/main.rs
